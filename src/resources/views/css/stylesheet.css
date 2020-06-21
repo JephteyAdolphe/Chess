@@ -1,0 +1,119 @@
+.bking {
+  -fx-graphic: url("blackKing.png");
+  -fx-background-color: 'transparent';
+}
+
+.bking:selected {
+  -fx-graphic: url("blackKing.png");
+  -fx-background-color: 'red';
+}
+
+.brook {
+  -fx-graphic: url("blackRook.png");
+  -fx-background-color: 'transparent';
+}
+
+.brook:selected {
+  -fx-graphic: url("blackRook.png");
+  -fx-background-color: 'red';
+}
+
+.bknight {
+  -fx-graphic: url("blackKnight.png");
+  -fx-background-color: 'transparent';
+}
+
+.bknight:selected {
+  -fx-graphic: url("blackKnight.png");
+  -fx-background-color: 'red';
+}
+
+.bpawn {
+  -fx-graphic: url("blackPawn.png");
+  -fx-background-color: 'transparent';
+}
+
+.bpawn:selected {
+  -fx-graphic: url("blackPawn.png");
+  -fx-background-color: 'red';
+}
+
+.bqueen {
+  -fx-graphic: url("blackQueen.png");
+  -fx-background-color: 'transparent';
+}
+
+.bqueen:selected {
+  -fx-graphic: url("blackQueen.png");
+  -fx-background-color: 'red';
+}
+
+.bbishop {
+  -fx-graphic: url("blackBishop.png");
+  -fx-background-color: 'transparent';
+}
+
+.bbishop:selected {
+  -fx-graphic: url("blackBishop.png");
+  -fx-background-color: 'red';
+}
+
+.wking {
+  -fx-graphic: url("whiteKing.png");
+  -fx-background-color: 'transparent';
+}
+
+.wking:selected {
+  -fx-graphic: url("whiteKing.png");
+  -fx-background-color: 'red';
+}
+
+.wrook {
+  -fx-graphic: url("whiteRook.png");
+  -fx-background-color: 'transparent';
+}
+
+.wrook:selected {
+  -fx-graphic: url("whiteRook.png");
+  -fx-background-color: 'red';
+}
+
+.wknight {
+  -fx-graphic: url("whiteKnight.png");
+  -fx-background-color: 'transparent';
+}
+
+.wknight:selected {
+  -fx-graphic: url("whiteKnight.png");
+  -fx-background-color: 'red';
+}
+
+.wpawn {
+  -fx-graphic: url("whitePawn.png");
+  -fx-background-color: 'transparent';
+}
+
+.wpawn:selected {
+  -fx-graphic: url("whitePawn.png");
+  -fx-background-color: 'red';
+}
+
+.wqueen {
+  -fx-graphic: url("whiteQueen.png");
+  -fx-background-color: 'transparent';
+}
+
+.wqueen:selected {
+  -fx-graphic: url("whiteQueen.png");
+  -fx-background-color: 'red';
+}
+
+.wbishop {
+  -fx-graphic: url("whiteBishop.png");
+  -fx-background-color: 'transparent';
+}
+
+.wbishop:selected {
+  -fx-graphic: url("whiteBishop.png");
+  -fx-background-color: 'red';
+}
