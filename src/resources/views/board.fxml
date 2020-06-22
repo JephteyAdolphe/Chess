@@ -26,154 +26,196 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;">
-            <ToggleButton id="test" fx:id="d0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton id="test" fx:id="a8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1">
-            <ToggleButton fx:id="d1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <ToggleButton fx:id="b8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2">
-            <ToggleButton fx:id="d2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="c8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3">
-            <ToggleButton fx:id="d3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="d8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4">
-            <ToggleButton fx:id="d4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="e8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5">
-            <ToggleButton fx:id="d5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="f8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6">
-            <ToggleButton fx:id="d6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="g8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7">
-            <ToggleButton fx:id="d7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="h8" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="1">
-            <ToggleButton fx:id="c0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="a7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="5" />
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="a6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="a5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="a4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane fx:id="sp_a3" onMouseClicked="#was_clicked" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="a3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.rowIndex="6">
-            <ToggleButton fx:id="b0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="a2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
         <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.rowIndex="7">
-            <ToggleButton fx:id="a0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+            <ToggleButton fx:id="a1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <ToggleButton fx:id="b7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="b6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="b5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="b4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="b3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <ToggleButton fx:id="b2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <ToggleButton fx:id="b1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <ToggleButton fx:id="c7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="c6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="c5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="c4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="c3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+            <ToggleButton fx:id="c2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+            <ToggleButton fx:id="c1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <ToggleButton fx:id="d7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="d6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="d5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="d4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7"
-                   GridPane.rowIndex="1">
-            <ToggleButton fx:id="c7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="d3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7"
-                   GridPane.rowIndex="6">
-            <ToggleButton fx:id="b7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+            <ToggleButton fx:id="d2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
-        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7"
-                   GridPane.rowIndex="7">
-            <ToggleButton fx:id="a7" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="40.0"
-                          prefWidth="40.0"/>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+            <ToggleButton fx:id="d1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <ToggleButton fx:id="e7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="e6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="e5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="e4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="e3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <ToggleButton fx:id="e2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+            <ToggleButton fx:id="e1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <ToggleButton fx:id="f7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="f6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="f5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="f4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="f3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+            <ToggleButton fx:id="f2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+            <ToggleButton fx:id="f1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+            <ToggleButton fx:id="g7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="g6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="g5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="g4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="g3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+            <ToggleButton fx:id="g2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+            <ToggleButton fx:id="g1" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+            <ToggleButton fx:id="h7" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7" GridPane.rowIndex="2" >
+            <ToggleButton fx:id="h6" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="3" >
+            <ToggleButton fx:id="h5" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7" GridPane.rowIndex="4" >
+            <ToggleButton fx:id="h4" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="5" >
+            <ToggleButton fx:id="h3" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #54350e;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+            <ToggleButton fx:id="h2" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffaf4a;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+            <ToggleButton fx:id="h1" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
         </StackPane>
     </GridPane>
 </AnchorPane>
