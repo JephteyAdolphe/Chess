@@ -188,8 +188,6 @@ public class boardController {
 
         // See if that condition can be applied to all toggle buttons at once
 
-        // maybe make all the common logic functions one function in this class
-        // so that the button/pane is passed only once in each mouse event
     }
 
     // Methods for when the pieces are clicked
@@ -326,8 +324,11 @@ public class boardController {
     private void piece_setUp(ToggleButton butt) {
         if (logic.check_if_targeted(butt)) {
             System.out.println("I'm a goner X o X");
-        } else {
-            logic.check_if_targeted(butt);
+        } else if (!logic.is_it_my_turn(butt)) {
+            System.out.println("Not your turn");
+        }
+        else {
+            //logic.check_if_targeted(butt);
             logic.make_predator(butt);
             logic.untoggleOthers(butt);
             logic.create_destinations(butt);

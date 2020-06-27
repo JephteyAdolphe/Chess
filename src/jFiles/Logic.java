@@ -1,5 +1,6 @@
 package jFiles;
 
+import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
@@ -50,6 +51,17 @@ public class Logic {
                 return "white";
             }
         } return null;
+    }
+
+    public boolean is_it_my_turn(ToggleButton butt) {
+        if (color_tracker % 2 == 0 && Objects.equals(check_color_of(butt), "white")) {
+            butt.setSelected(false);
+            return false;
+        } else if (color_tracker % 2 != 0 && Objects.equals(check_color_of(butt), "black")) {
+            butt.setSelected(false);
+            return false;
+        }
+        return true;
     }
 
     private ToggleButton currently_toggled() {
