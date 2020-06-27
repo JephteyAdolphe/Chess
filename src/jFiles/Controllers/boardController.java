@@ -144,7 +144,7 @@ public class boardController {
         logic.pieces.addAll(Arrays.asList(loc_list));
         logic.stack_panes.addAll(Arrays.asList(pane_list));
 
-        // Add the matching graphics to the pieces (toggle buttons)
+        // Adds the matching graphics to the pieces (toggle buttons)
 
         wpawn1.getStyleClass().add("wpawn");
         bpawn1.getStyleClass().add("bpawn");
@@ -187,169 +187,151 @@ public class boardController {
         // Find a way to have a condition before allowing a toggle
 
         // See if that condition can be applied to all toggle buttons at once
+
+        // maybe make all the common logic functions one function in this class
+        // so that the button/pane is passed only once in each mouse event
     }
 
     // Methods for when the pieces are clicked
 
     public void brook1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(brook1);
-        logic.create_destinations(brook1);
+        piece_setUp(brook1);
     }
 
     public void bknight1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bknight1);
-        logic.create_destinations(bknight1);
+        piece_setUp(bknight1);
     }
 
     public void bbishop1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bbisop1);
-        logic.create_destinations(bbisop1);
+        piece_setUp(bbisop1);
     }
 
     public void bqueen_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bqueen);
-        logic.create_destinations(bqueen);
+        piece_setUp(bqueen);
     }
 
     public void bking_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bking);
-        logic.create_destinations(bking);
+        piece_setUp(bking);
     }
 
     public void bbishop2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bbishop2);
-        logic.create_destinations(bbishop2);
+        piece_setUp(bbishop2);
     }
 
     public void bknight2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bknight2);
-        logic.create_destinations(bknight2);
+        piece_setUp(bknight2);
     }
 
     public void brook2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(brook2);
-        logic.create_destinations(brook2);
+        piece_setUp(brook2);
     }
 
     public void wpawn1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn1);
-        logic.create_destinations(wpawn1);
+        piece_setUp(wpawn1);
     }
 
     public void wrook1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wrook1);
-        logic.create_destinations(wrook1);
+        piece_setUp(wrook1);
     }
 
     public void wpawn2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn2);
-        logic.create_destinations(wpawn2);
+        piece_setUp(wpawn2);
     }
 
     public void wknight1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wknight1);
-        logic.create_destinations(wknight1);
+        piece_setUp(wknight1);
     }
 
     public void wpawn3_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn3);
-        logic.create_destinations(wpawn3);
+        piece_setUp(wpawn3);
     }
 
     public void wbishop1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wbishop1);
-        logic.create_destinations(wbishop1);
+        piece_setUp(wbishop1);
     }
 
     public void wpawn4_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn4);
-        logic.create_destinations(wpawn4);
+        piece_setUp(wpawn4);
     }
 
     public void wqueen_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wqueen);
-        logic.create_destinations(wqueen);
+        piece_setUp(wqueen);
     }
 
     public void wpawn5_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn5);
-        logic.create_destinations(wpawn5);
+        piece_setUp(wpawn5);
     }
 
     public void wking_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wking);
-        logic.create_destinations(wking);
+        piece_setUp(wking);
     }
 
     public void wpawn6_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn6);
-        logic.create_destinations(wpawn6);
+        piece_setUp(wpawn6);
     }
 
     public void wbishop2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wbishop2);
-        logic.create_destinations(wbishop2);
+        piece_setUp(wbishop2);
     }
 
     public void wpawn7_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn7);
-        logic.create_destinations(wpawn7);
+        piece_setUp(wpawn7);
     }
 
     public void wknight2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wknight2);
-        logic.create_destinations(wknight2);
+        piece_setUp(wknight2);
     }
 
     public void wpawn8_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wpawn8);
-        logic.create_destinations(wpawn8);
+        piece_setUp(wpawn8);
     }
 
     public void wrook2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(wrook2);
-        logic.create_destinations(wrook2);
+        piece_setUp(wrook2);
     }
 
 
     public void bpawn1_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn1);
-        logic.create_destinations(bpawn1);
+        piece_setUp(bpawn1);
     }
 
     public void bpawn2_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn2);
-        logic.create_destinations(bpawn2);
+        piece_setUp(bpawn2);
     }
 
     public void bpawn3_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn3);
-        logic.create_destinations(bpawn3);
+        piece_setUp(bpawn3);
     }
 
     public void bpawn4_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn4);
-        logic.create_destinations(bpawn4);
+        piece_setUp(bpawn4);
     }
 
     public void bpawn5_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn5);
-        logic.create_destinations(bpawn5);
+        piece_setUp(bpawn5);
     }
 
     public void bpawn6_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn6);
-        logic.create_destinations(bpawn6);
+        piece_setUp(bpawn6);
     }
 
     public void bpawn7_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn7);
-        logic.create_destinations(bpawn7);
+        piece_setUp(bpawn7);
     }
 
     public void bpawn8_clicked(MouseEvent mouseEvent) {
-        logic.untoggleOthers(bpawn8);
-        logic.create_destinations(bpawn8);
+        piece_setUp(bpawn8);
+    }
+
+    private void piece_setUp(ToggleButton butt) {
+        if (logic.check_if_targeted(butt)) {
+            System.out.println("I'm a goner X o X");
+        } else {
+            logic.check_if_targeted(butt);
+            logic.make_predator(butt);
+            logic.untoggleOthers(butt);
+            logic.create_destinations(butt);
+        }
     }
 
     // Methods for when the pieces are clicked
