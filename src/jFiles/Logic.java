@@ -99,6 +99,16 @@ public class Logic {
             case "wbishop2":
                 bishop_pressed(row, col);
                 break;
+
+            case "bqueen":
+            case "wqueen":
+                queen_pressed(row, col);
+                break;
+
+            case "bking":
+            case "wking":
+                king_pressed(row, col);
+                break;
         }
     }
 
@@ -301,6 +311,43 @@ public class Logic {
                 r--;
                 c--;
                 if (c == -1) break;
+            }
+        }
+
+        private void queen_pressed(int row, int col) {
+
+            // Queen has the abilities of both the rook and the bishop
+
+            rook_pressed(row, col);
+            bishop_pressed(row, col);
+        }
+
+        private void king_pressed(int row, int col) {
+            for (int i = 0; i < stack_panes.size(); i++) {
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row - 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row - 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col + 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row && GridPane.getColumnIndex(stack_panes.get(i)) == col + 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row + 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col + 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row + 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row + 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col - 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row && GridPane.getColumnIndex(stack_panes.get(i)) == col - 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+                if (GridPane.getRowIndex(stack_panes.get(i)) == row - 1 && GridPane.getColumnIndex(stack_panes.get(i)) == col - 1 && stack_panes.get(i).getChildren().isEmpty()) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
             }
         }
     }

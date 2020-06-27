@@ -208,10 +208,12 @@ public class boardController {
 
     public void bqueen_clicked(MouseEvent mouseEvent) {
         logic.untoggleOthers(bqueen);
+        logic.create_destinations(bqueen);
     }
 
     public void bking_clicked(MouseEvent mouseEvent) {
         logic.untoggleOthers(bking);
+        logic.create_destinations(bking);
     }
 
     public void bbishop2_clicked(MouseEvent mouseEvent) {
@@ -266,6 +268,7 @@ public class boardController {
 
     public void wqueen_clicked(MouseEvent mouseEvent) {
         logic.untoggleOthers(wqueen);
+        logic.create_destinations(wqueen);
     }
 
     public void wpawn5_clicked(MouseEvent mouseEvent) {
@@ -275,6 +278,7 @@ public class boardController {
 
     public void wking_clicked(MouseEvent mouseEvent) {
         logic.untoggleOthers(wking);
+        logic.create_destinations(wking);
     }
 
     public void wpawn6_clicked(MouseEvent mouseEvent) {
