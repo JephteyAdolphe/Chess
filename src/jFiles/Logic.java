@@ -23,6 +23,14 @@ public class Logic {
 
     public boolean check_if_targeted(ToggleButton button) {
         if (prey.contains(button)) {
+
+            if (button.getId().contains("king")) {
+                System.out.println("Game Overrrrrr");
+                for (int i = 0; i < pieces.size(); i++) {
+                    pieces.get(i).setDisable(true);
+                }
+            }
+
             StackPane sp = (StackPane) button.getParent();
             pieces.remove(button);
             sp.getChildren().remove(button);
@@ -52,6 +60,8 @@ public class Logic {
             }
         } return null;
     }
+
+    // Regulates which color is in play
 
     public boolean is_it_my_turn(ToggleButton butt) {
         if (color_tracker % 2 == 0 && Objects.equals(check_color_of(butt), "white")) {
@@ -187,6 +197,10 @@ public class Logic {
 
             if (String.valueOf(pressed.getId()).contains("bpawn")) {
 
+                if (row == 1 && tempRow == 3 && tempCol == col) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+
                 if (tempCol == col && tempRow == row + 1 && stack_panes.get(i).getChildren().isEmpty()) {
                     possible_destinations.add(stack_panes.get(i));
                     break;
@@ -195,9 +209,13 @@ public class Logic {
 
             if (String.valueOf(pressed.getId()).contains("wpawn")) {
 
+                if (row == 6 && tempRow == 4 && tempCol == col) {
+                    possible_destinations.add(stack_panes.get(i));
+                }
+
                 if (tempCol == col && tempRow == row - 1 && stack_panes.get(i).getChildren().isEmpty()) {
                     possible_destinations.add(stack_panes.get(i));
-                    break;
+                    //break;
                 }
             }
         }
