@@ -1,6 +1,5 @@
 package jFiles;
 
-import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
@@ -72,14 +71,6 @@ public class Logic {
             return false;
         }
         return true;
-    }
-
-    private ToggleButton currently_toggled() {
-        for (int i = 0; i < pieces.size(); i++) {
-            if (pieces.get(i).isSelected()) {
-                return pieces.get(i);
-            }
-        } return null;
     }
 
     public void make_predator(ToggleButton pred) {
@@ -197,7 +188,7 @@ public class Logic {
 
             if (String.valueOf(pressed.getId()).contains("bpawn")) {
 
-                if (row == 1 && tempRow == 3 && tempCol == col) {
+                if (row == 1 && tempRow == 3 && tempCol == col) {   // double move for first move of a pawn
                     possible_destinations.add(stack_panes.get(i));
                 }
 
@@ -209,13 +200,12 @@ public class Logic {
 
             if (String.valueOf(pressed.getId()).contains("wpawn")) {
 
-                if (row == 6 && tempRow == 4 && tempCol == col) {
+                if (row == 6 && tempRow == 4 && tempCol == col) {   // double move for first move of a pawn
                     possible_destinations.add(stack_panes.get(i));
                 }
 
                 if (tempCol == col && tempRow == row - 1 && stack_panes.get(i).getChildren().isEmpty()) {
                     possible_destinations.add(stack_panes.get(i));
-                    //break;
                 }
             }
         }

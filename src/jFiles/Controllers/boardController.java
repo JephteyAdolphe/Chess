@@ -183,11 +183,6 @@ public class boardController {
 
         wqueen.getStyleClass().add("wqueen");
         bqueen.getStyleClass().add("bqueen");
-
-        // Find a way to have a condition before allowing a toggle
-
-        // See if that condition can be applied to all toggle buttons at once
-
     }
 
     // Methods for when the pieces are clicked
